@@ -9,13 +9,5 @@ end
 
 def print_first_directors_movie_titles
   
- row_index = 0 
- while row_index < directors_database.length do
-   element_index = 0
-   if directors_database[row_index][:name] == "Spielberg"
-     
-     puts directors_database[row_index][:name][element_index]
-     element_index += 1
-    end
-  end
+ 
 end
