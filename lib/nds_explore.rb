@@ -9,7 +9,13 @@ end
 
 def print_first_directors_movie_titles
   
-  movies=[{:name =>"Jaws", :movie =>"Close Encounters of the Third Kind"},
- {:name => "E.T", :movie => "Raiders of the Lost Ark"},
- {:name => "Schindler", :movie => " the Extra-terrestrial list "}]
+ row_index = 0 
+ while row_index < directors_database.length do
+   element_index = 0
+   if directors_database[row_index][:name] == "Spielberg"
+     
+     puts directors_database[row_index][:name][element_index]
+     element_index += 1
+    end
+  end
 end
